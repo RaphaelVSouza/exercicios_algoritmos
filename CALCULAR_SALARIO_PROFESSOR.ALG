@@ -14,7 +14,11 @@ TOTAL_DESCONTO : real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("------------------------------------------------")
+escreval("Bem vindo ao calculador de salário do professor!")
+escreval("------------------------------------------------")
+escreval("")
 escreval ("Digite o total de horas trabalhadas")
 leia(HORAS_TRABALHADAS)
 escreval ("Digite o valor de sua hora aula")
@@ -25,6 +29,8 @@ leia(DESCONTO)
 SALARIO_BRUTO <- HORAS_TRABALHADAS * HORA_AULA
 TOTAL_DESCONTO <- (DESCONTO / 100) * SALARIO_BRUTO
 SALARIO_LIQUIDO <- SALARIO_BRUTO - TOTAL_DESCONTO
+escreval("***")
 escreval ("O valor de seu salário líquido é de R$ ", SALARIO_LIQUIDO)
+escreval("***")
 
 Fimalgoritmo

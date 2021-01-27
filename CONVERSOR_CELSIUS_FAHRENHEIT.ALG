@@ -14,6 +14,7 @@ Inicio
 escreval("----------------------------------------------")
 escreval("Bem vindo ao conversor Celsius para Fahrenheit!")
 escreval("----------------------------------------------")
+escreval("")
 escreval ("Digite a temperatura em Celsius para a conversão")
 leia(TEMP_CELSIUS)
 TEMP_FAHRENHEIT <- (9 * TEMP_CELSIUS + 160)/5
