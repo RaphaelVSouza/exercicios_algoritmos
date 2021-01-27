@@ -1,4 +1,4 @@
-Algoritmo "FAHRENHEIT_PARA_CELSIUS"
+Algoritmo "CONVERSOR_CELSIUS_FAHRENHEIT"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
@@ -12,13 +12,13 @@ TEMP_CELSIUS: real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
 escreval("----------------------------------------------")
-escreval("Bem vindo ao conversor Fahrenheit para Celsius!")
+escreval("Bem vindo ao conversor Celsius para Fahrenheit!")
 escreval("----------------------------------------------")
-escreval ("Digite a temperatura em Fahrenheit para a conversão")
-leia(TEMP_FAHRENHEIT)
-TEMP_CELSIUS <- (TEMP_FAHRENHEIT - 32) * (5/9)
+escreval ("Digite a temperatura em Celsius para a conversão")
+leia(TEMP_CELSIUS)
+TEMP_FAHRENHEIT <- (9 * TEMP_CELSIUS + 160)/5
 escreval("***")
-escreval("A temperatura", TEMP_FAHRENHEIT, "ºF equivale à", TEMP_CELSIUS, "ºC")
+escreval("A temperatura", TEMP_CELSIUS, "ºC equivale à", TEMP_FAHRENHEIT, "ºF")
 escreval("***")
 
 Fimalgoritmo

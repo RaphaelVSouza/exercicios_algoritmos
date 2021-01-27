@@ -1,4 +1,4 @@
-Algoritmo "SALARIO_PROFESSOR"
+Algoritmo "CALCULAR_SALARIO_PROFESSOR"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi 
 // Descrição   : Aqui você descreve o que o programa faz! (função)

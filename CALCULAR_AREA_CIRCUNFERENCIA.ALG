@@ -1,4 +1,4 @@
-Algoritmo "CALCULAR_CIRCUNFERENCIA"
+Algoritmo "CALCULAR_AREA_CIRCUNFERENCIA"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
