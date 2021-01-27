@@ -11,11 +11,17 @@ Var
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("--------------------------------")
+escreval("Bem vindo ao somador de números!")
+escreval("--------------------------------")
+escreval("")
 escreva ("Insira um número ")
 leia (a)
 escreva ("Insira outro número ")
 leia (b)
 x <- a + b
+escreval("***")
 escreva ("A soma desses dois números é: ", x)
+escreval("***")
 
 Fimalgoritmo
