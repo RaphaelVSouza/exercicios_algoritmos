@@ -13,9 +13,9 @@ LITROS_USADOS: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-escreval("----------------------------------------------")
+escreval("-----------------------------------------------------------")
 escreval("Bem vindo ao calculador de litros de combustível da viagem!")
-escreval("----------------------------------------------")
+escreval("-----------------------------------------------------------")
 escreval("")
 escreval("Informe o tempo que será gasto na viagem")
 leia(TEMPO_VIAGEM)
